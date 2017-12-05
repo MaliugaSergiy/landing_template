@@ -1,0 +1,117 @@
+.h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+}
+
+.pol_after {
+    position: relative;
+    &:after{
+        content: "";
+        position: absolute;
+        width: 64px;
+        height: 2px;
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color:  #FC8A51;
+        
+    }
+    
+}
+.descr {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.descr_sm {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.head-main {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-color1 {color: #FC8A51; }
+.main-bg1 {background-color: #FC8A51;}
+.color-gray {color: #C6C6C6;}
+.ё{color: #86878b;}
+.main-color2 {color:  #2E2E2E;}
+.main-bg2 {background-color:  #2E2E2E;}
+.color_bg {background-color: #F3F3F3;}
+.color-dark {background-color: #030303;}
+.color-light {color: #FFFFFF;}
+.bg-light {background-color: #fff;}
+
+
+.logo_name {
+    font-size: 70px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    span {
+        color: #FC8A51;
+        font-weight: 500;
+    }
+}
+
+.main_btn {
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    outline: none;
+    &:hover {
+        background-color: #FC8A51;
+        color:  #2E2E2E;
+        border-color:  #FC8A51;
+    }
+}
+
+.colored-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #2E2E2E;
+    border: 0px;
+    outline: none;
+    padding: 17px 20px;
+    transition: 0.3s;
+    font-weight: 600;
+    outline: none;
+    &:hover, &:focus {
+        color: #fff;
+        background-color:  #2E2E2E;
+        
+    }
+    
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 35px !important;
+    border-right: 1px solid #D1D1D1 !important;
+    //padding: 5px 10px !important;
+    //padding-left: 10px !important;
+
+    color: #D1D1D1;
+}
+a {
+    outline: none !important;
+}
+a:hover {
+    text-decoration: none !important;
+    outline: none;
+}
+button {
+    outline: none;
+}
